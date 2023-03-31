@@ -45,7 +45,7 @@
 
 // // take input from the user
 // const number =  7;
-// let isPrime = true;
+//   isPrime = true;
 
 // // check if number is equal to 1
 // if (number === 1) {
@@ -56,7 +56,7 @@
 // else if (number > 1) {
 
 //     // looping through 2 to number-1
-//     for (let i = 2; i < number; i++) {
+//     for (  i = 2; i < number; i++) {
 //         if (number % i == 0) {
 //             isPrime = false;
 //             break;

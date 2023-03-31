@@ -31,7 +31,7 @@
 
 
 
-// let name1="sahil"
+//   name1="sahil"
 
 // console.log(`my name is  ${name1}`)
 
@@ -43,27 +43,29 @@
 
 
 
-let name1="sahil"
 
-setTimeout(()=>{
-    console.log(`my name is  ${name1}`)
-},10)
 
-function call_name(name){
-    console.log(`name call in function ${name}`)
-}
+//   name1="sahil"
 
-call_name(name1)
+// setTimeout(()=>{
+//     console.log(`my name is  ${name1}`)
+// },10)
 
-arr =[1,2,3,4,5]
-for(i=1;i<100;i++){
-    console.log(arr)
-}
+// function call_name(name){
+//     console.log(`name call in function ${name}`)
+// }
 
-arr =[1,2,3,4,5]
-for(i=1;i<100;i++){
-    console.log(arr)
-}
+// call_name(name1)
+
+// arr =[1,2,3,4,5]
+// for(i=1;i<100;i++){
+//     console.log(arr)
+// }
+
+// arr =[1,2,3,4,5]
+// for(i=1;i<100;i++){
+//     console.log(arr)
+// }
 
 
 

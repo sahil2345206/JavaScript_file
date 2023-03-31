@@ -1,5 +1,5 @@
-// let str = "civic";
-// let strReverse = str.split("").reverse().join("");
+//   str = "civic";
+//   strReverse = str.split("").reverse().join("");
 
 // if (str === strReverse) {
 //   console.log("The string is a palindrome");
@@ -7,18 +7,18 @@
 //   console.log("NOT a palindrome");
 // }
 
- // empty string
-//  str = "121121"
-//  let newString = "";
-//  for (let i = str.length - 1; i >= 0; i--) {
-//      newString += str[i];
-//     }
-//     if(str==newString){
-//         console.log('the given string is palindrome')
-//      }else{
-//         console.log('not palindrome')
-//      }
-//  console.log(newString)
+//  empty string
+ str = "122122"
+   newString = "";
+ for (  i = str.length - 1; i >= 0; i--) {
+     newString += str[i];
+    }
+    if(str==newString){
+        console.log('the given string is palindrome')
+     }else{
+        console.log('not palindrome') 
+     }
+ console.log(newString)
 
 
 
@@ -41,20 +41,20 @@
 
 
 
-str = "151";
+// str = "151";
 
-newString = ""
+// newString = ""
 
-for(i=str.length-1; i>=0; i--){
-    newString += str[i]
-}
-if(str==newString){
-    console.log("palindrome")
-}
+// for(i=str.length-1; i>=0; i--){
+//     newString += str[i]
+// }
+// if(str==newString){
+//     console.log("palindrome")
+// }
 
-else{
-    console.log("not a palindrome")
-}
+// else{
+//     console.log("not a palindrome")
+// }
 
 
 

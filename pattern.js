@@ -17,10 +17,10 @@
 
 
 
-// let string = "";
+//   string = "";
 
-// for(let i = 0; i < 5; i++) { // external loop
-//   for(let j = 0; j < 5; j++) { // internal loop
+// for(  i = 0; i < 5; i++) { // external loop
+//   for(  j = 0; j < 5; j++) { // internal loop
 //     string += "*";
 //   }
 //   // newline after each row
@@ -56,12 +56,12 @@
 
 
 
-// let n = 5; // row or column count
+//   n = 5; // row or column count
 // // defining an empty string
-// let string = "";
+//   string = "";
 
-// for(let i = 0; i < n; i++) { // external loop
-//   for(let j = 0; j < n; j++) { // internal loop
+// for(  i = 0; i < n; i++) { // external loop
+//   for(  j = 0; j < n; j++) { // internal loop
 //     if(i === 0 || i === n - 1) {
 //       string += "*";
 //     }
