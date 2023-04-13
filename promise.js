@@ -30,7 +30,7 @@
 
 
 
-// // get result without print promise object
+// get result without print promise object
 // const count = true;
 // countValue = new Promise(function(resolve, reject) {
 //     resolve("there is a countValue")
@@ -39,7 +39,7 @@
 // countValue.then((result)=>{console.log(result)})
 
 
-// const count = true;
+// const count = false;
 // const countValue = new Promise(function(resolve, reject) {
   
 //     resolve("there is a countValue");
@@ -108,24 +108,34 @@
 
 
 
-function getUsers(cb) {
-    let Users = [];
-    setTimeout(() => {
-      Users = [     
-         { userName: 'john', email: 'john@g.com' },    
-           { userName: 'jane', email: 'jane@g.com' }    ];
-      cb(Users);
-    }, 1000);
+// function getUsers(cb) {
+//     let Users = [];
+//     setTimeout(() => {
+//       Users = [     
+//          { userName: 'john', email: 'john@g.com' },    
+//            { userName: 'jane', email: 'jane@g.com' }    ];
+//       cb(Users);
+//     }, 1000);
   
-    return Users;
-  }
-  getUsers((Users)=>{
-    findUser(Users)
-  function findUser(Users) { 
-    for (let i = 0; i < Users.length; i++) {
-      console.log(Users[i]);}
-  }
-})
+//     return Users;
+//   }
+//   getUsers((Users)=>{
+//     findUser(Users)
+//   function findUser(Users) { 
+//     for (let i = 0; i < Users.length; i++) {
+//       console.log(Users[i]);}
+//   }
+// })
+
+
+
+
+
+
+
+
+
+
 
 
  
